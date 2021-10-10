@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="hero-container">
+      <div class="circle-container">
+        <div class="circle">
+          <button class="btn btn-close">
+            <i class="fas fa-code fa-rotate-270"></i>
+          </button>
+          <button class="btn btn-open">
+            <i class="fas fa-code"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- For tablet and mobile menu -->
+      <input type="checkbox" id="active"/>
+      <label for="active" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <div class="menu">
+        <ul class="list nav__list">
+          <li class="list__item">
+            <a href="https://github.com/ManLikeCliff?tab=repositories" target="_blank" class="list__link">My work</a>
+          </li>
+          <li class="list__item">
+            <a href="https://twitter.com/Official_klif" target="_blank" class="list__link">Twitter</a>
+          </li>
+          <li class="list__item">
+            <a href="https://discord.com/channels/@me/826559088900046898" target="_blank" class="list__link">Discord</a>
+          </li>
+          <li class="list__item">
+            <a href="https://wa.me/qr/YNXEFHJO5EPFL1" target="_blank" class="list__link">WhatsApp</a>
+          </li>
+        </ul>
+      </div>
+
+      <nav>
+        <ul class="list nav__list">
+          <li class="list__item">
+            <a href="https://github.com/ManLikeCliff?tab=repositories" target="_blank" class="list__link">My work</a>
+          </li>
+          <li class="list__item">
+            <a href="https://twitter.com/Official_klif" target="_blank" class="list__link">Twitter</a>
+          </li>
+          <li class="list__item">
+            <a href="https://discord.com/channels/@me/826559088900046898" target="_blank" class="list__link">Discord</a>
+          </li>
+          <li class="list__item">
+            <a href="https://wa.me/qr/YNXEFHJO5EPFL1" target="_blank" class="list__link">WhatsApp</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="grid">
+        <div class="hero__content">
+          <h1 class="hero__title">Hi, I am Nwigwe Cliff</h1>
+          <p class="hero__subtitle">Frontend Developer & Designer</p>
+
+          <a href="mailto:klifiam@gmail.com" class="hero__btn">Hire Me</a>
+        </div>
+
+        <div class="hero__image">
+            <img src="./Coding _Monochromatic (2).png" alt="Hero image">
+        </div>
+
+      </main>
+    </section>
+
+    <footer class="footer">
+      <ul class="list footer__list">
+        <li class="list__item">
+          <a href="https://www.linkedin.com/in/nwigwe-cliff-300a4b90/" target="_blank" class="list__link">Skills</a>
+        </li>
+        <li class="list__item">
+          <a href="https://www.linkedin.com/in/nwigwe-cliff-300a4b90/" target="_blank" class="list__link">Education</a>
+        </li>
+        <li class="list__item">
+          <a href="https://www.linkedin.com/in/nwigwe-cliff-300a4b90/" target="_blank" class="list__link">Experience</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
